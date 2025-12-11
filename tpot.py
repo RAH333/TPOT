@@ -28,7 +28,7 @@ from joblib import dump
 dump(tpot.fitted_pipeline_, "best_pipeline.pkl")
 print("Pipeline saved as best_pipeline.pkl")
 
-You can load it later as follows:
+#You can load it later as follows:
 
 from joblib import load
 
